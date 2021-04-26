@@ -45,6 +45,7 @@ public class Joueur implements Serializable {
             return false;
         }
         Joueur other = (Joueur) object;
+        
         if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
             return false;
         }
@@ -53,7 +54,7 @@ public class Joueur implements Serializable {
 
     @Override
     public String toString() {
-        return "com.insset.loups.garous.Joueur[ id=" + id + " ]";
+        return "loups.garous.Joueur[ id=" + id + " ]";
     }
     
 }
