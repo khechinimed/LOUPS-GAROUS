@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/loups-garous">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="hh" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/devoir?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+</Context>
